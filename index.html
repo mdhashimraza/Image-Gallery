@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Beautiful Image Gallery</h1>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+    </header>
+
+    <div class="gallery">
+        <div class="image" data-category="nature"><img src="https://picsum.photos/500/300?random=1" alt="Nature 1"></div>
+        <div class="image" data-category="city"><img src="https://picsum.photos/500/300?random=2" alt="City 1"></div>
+        <div class="image" data-category="animals"><img src="https://picsum.photos/500/300?random=3" alt="Animal 1"></div>
+        <div class="image" data-category="nature"><img src="https://picsum.photos/500/300?random=4" alt="Nature 2"></div>
+        <div class="image" data-category="city"><img src="https://picsum.photos/500/300?random=5" alt="City 2"></div>
+        <div class="image" data-category="animals"><img src="https://picsum.photos/500/300?random=6" alt="Animal 2"></div>
+        <div class="image" data-category="animals"><img src="https://picsum.photos/500/300?random=7" alt="Animal 3"></div>
+        <div class="image" data-category="city"><img src="https://picsum.photos/500/300?random=8" alt="City 3"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1135916192/photo/mumbai-aerial-view-from-helicopter-07.jpg?s=612x612&w=0&k=20&c=zWcvI53j2OQR3btWB_1aUWHYN0jQ7nDIcRBfCoQOecM=" alt="City 4"></div>
+        <div class="image" data-category="city"><img src="https://picsum.photos/500/300?random=9" alt="City 5"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1226340114/photo/puratchi-thalaivar-dr-mgr-central-railway-station-chennai-central-railway-station-india.jpg?s=612x612&w=0&k=20&c=lZjBnWBBoLiApWZUUWP1Vl3XAVdKjYMcgGpItXv_L14=" alt="City 6"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2189495681/photo/green-building-concept.jpg?s=612x612&w=0&k=20&c=tYgukCWgsmGWC_N4DJiLMZcMmXG2iVAZZyIvT0Tw68k=" alt="City 6"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1381924388/photo/golden-temple-amritsar.jpg?s=612x612&w=0&k=20&c=moOgs-nxLvpJdh4AYBlWa1r0RgrZezTFiOm1ocC0d5c=" alt="City 7"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/504105305/photo/blur-people-and-traffic-on-a-street-at-night.jpg?s=612x612&w=0&k=20&c=sQ4hw-Sob0TaaMlZzpyWxvY9W01PPPB_9A7xj1ixCKk=" alt="City 8"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1356998036/photo/city-palace-jaipur.jpg?s=612x612&w=0&k=20&c=U85WwN43cJPwcyUr1QqqJ4hO3AaG-fVLIVDJeY892Tw=" alt="City 9"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/514102692/photo/udaipur-city-palace-in-rajasthan-state-of-india.jpg?s=612x612&w=0&k=20&c=bYRDPOuf6nFgghl6VAnCn__22SFyu_atC_fiSCzVNtY=" alt="City 10"></div>
+        <div class="image" data-category="city"><img src="https://picsum.photos/500/300?random=12" alt="City 11"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1147483879/photo/kathmandu-skyline-and-rooftop-monkey.jpg?s=612x612&w=0&k=20&c=ecVXl5gb6h31AUEDkyhUiEOHU5a8JxSKIjv0_MbkwRM=" alt="City 12"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1576049709/photo/young-man-comforting-his-sad-girlfriend-sitting-in-a-cafe.jpg?s=612x612&w=0&k=20&c=RO6MNAODqECBRCg4hF5O9ywb6LzlkaNbxLaeuvXVx4k=" alt="City 13"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2181108117/photo/solar-panel.jpg?s=612x612&w=0&k=20&c=2XLqRcOvP5Y2ySGUZS_RleN0EApUxRe_F45N7Vl7MIA=" alt="City 14"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1384747431/photo/aerial-drone-shot-showing-elevated-metro-track-over-lit-road-surrounded-by-densely-populated.jpg?s=612x612&w=0&k=20&c=4b7jWwK-KJFwcyg5ufSVSi4rJ-9Qq8-Z8R2NxkW34U0=" alt="City 15"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1074145382/photo/architecture-of-golkonda-fort.jpg?s=612x612&w=0&k=20&c=w4PNYN-Kohwpjk-r8foDcBqAqoYlPzHwWzLrfTR-0No=" alt="City 16"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1467992682/photo/aerial-drone-still-shot-showing-busy-sohna-elevated-highway-toll-road-with-traffic-stuck-at.jpg?s=612x612&w=0&k=20&c=IXKiKTCfEQWLckT43uY1Nt4Ed99ANsjPVGMwldLsIf4=" alt="City 17"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1491046234/photo/citylights.jpg?s=612x612&w=0&k=20&c=M6qUVrASalbTLcEewzP1AZq7Cs5pOhr43A2P-FaX4bQ=" alt="City 18"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/623379656/photo/destruction-of-nature-and-construction-of-new-urban-landscape.jpg?s=612x612&w=0&k=20&c=LYo7IHq8Mz8j-cY6BAb-trgmhOKN7C-cOEB3zkCYVHs=" alt="City 19"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2183842277/photo/aerial-drone-shot-of-delhi-cityscape-with-small-shopping-centers-malls-offices-houses-to.jpg?s=612x612&w=0&k=20&c=uBYDpzVpf_hCD2Uycv4u6XMCB72Re815fwgPm9RKqfo=" alt="City 20"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/531864277/photo/bandra-worli-sea-link.jpg?s=612x612&w=0&k=20&c=3nie1Z_A19UOk57G0I-IVsrpSlU-5KTsDbzRTRhOEMc=" alt="City 21"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2170381818/photo/saint-paul-cathedral-kolkata.jpg?s=612x612&w=0&k=20&c=nKxAfdW-PfRddRZN8wKwckuyy1PHeX-jhUif_1QoZ_I=" alt="City 22"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1291961188/photo/stunning-view-of-the-hawa-mahal-at-sunset-with-blurred-people-walking-during-the-covid-19.jpg?s=612x612&w=0&k=20&c=6au0sGRJARDE3Y6sjuZotM2aMJR3X2AUc9zUP37lcBk=" alt="City 23"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2217708157/photo/dramatic-lightning-storm-over-illuminated-city-skyline-in-noida-india.jpg?s=612x612&w=0&k=20&c=A1wOmtjCH2peO9SGM1VZJSoFsnlrxRL3jjJ8ect6k6M=" alt="City 24"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1455210329/photo/image-of-traffic-jam-on-motorway-at-sunset-viewed-from-overpass-motorbikes-cars-auto.jpg?s=612x612&w=0&k=20&c=cEvZ4_oLOMYHYUo9BlPESlI2L4o9rXmG6XDMQeQHaQY=" alt="City 25"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1154388717/photo/udaipur-city-palace-at-the-evening.jpg?s=612x612&w=0&k=20&c=l28caV42bYmCTrNPtbUSMEl6GXdPfTVrVwVCKWkC3qQ=" alt="City 26"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2166111199/photo/empty-floor-and-city-building-at-night.jpg?s=612x612&w=0&k=20&c=SLiGl4EsvQhex3euZcELuoxIWvGWVOj2F0t3OFCq0bY=" alt="City 27"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1433555981/photo/vidhana-soudha-in-bangalore-india-the-seat-of-the-state-legislature-of-karnataka.jpg?s=612x612&w=0&k=20&c=cruiVCYcKeFM7axGFX1m_K95rgDMzAQlS2ZUhQGIKYc=" alt="City 28"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2166330742/photo/mumbai-monsoon-man.jpg?s=612x612&w=0&k=20&c=Sr0Afvr_zrI3eC9UKly9F0JxiOQRMDtpwHuwjATnlkM=" alt="City 29"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1499019570/photo/roof-garden.jpg?s=612x612&w=0&k=20&c=RZgcJAPvFJpWCnPofWSdLbypePbPvqPB46vnU3bBnYQ=" alt="City 30"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2235882930/photo/empty-wooden-platform-and-modern-urban-waterfront-skyline-with-dramatic-sky-and-clouds-during.jpg?s=612x612&w=0&k=20&c=HkdsSKLcIBQrT41_RFRGvh9_S-JJXJukaOGZ-bZ4hFo=" alt="City 31"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1225912705/photo/night-view-of-city-lights-in-front-of-marble-square-xuzhou-china.jpg?s=612x612&w=0&k=20&c=U_z-LAvZ9AtFXxsY4NWmlUHFBCpvoFVVPxAuxbHVXz4=" alt="City 32"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/542080530/photo/bangalore.jpg?s=612x612&w=0&k=20&c=RY9ayJnZ96TWPJl1KAkhGlhYynfsx6yflrJi7OxV4JI=" alt="City 33"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2175083463/photo/new-delhi-delhi-india-fire-truck-spraying-water-over-delhi-streets-amid-pollution-emergency.jpg?s=612x612&w=0&k=20&c=MkS9w1sChN8Bq3oXYo3sPzIWG3jCv1HIdqh90nHzeCY=" alt="City 34"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1370471723/photo/rani-kamlapati-arch-bridge-in-the-city-of-bhopal-lower-lake-jahangirabad-madhya-pradesh-india.jpg?s=612x612&w=0&k=20&c=Ei9qbLj2d1WAAYp55K0I-QGVu-yMQet4G7k18IALgXM=" alt="City 35"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2237048014/photo/aerial-of-the-charleroi-in-belgium.jpg?s=612x612&w=0&k=20&c=QjOdIW8Q5-Y10HfM19nr1LCszhOe2809sRmNsY2qdh4=" alt="City 36"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1162558429/photo/ub-city-mall-and-other-towers-in-bengaluru-india.jpg?s=612x612&w=0&k=20&c=9V16rOJIu5nnABoNnx8MPM5-_K1QuoyIAJwxO1Q0eRs=" alt="City 37"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/624868974/photo/its-raining-in-kolkata.jpg?s=612x612&w=0&k=20&c=GTqHBBmBtUULAAm3XPsbms6JrVp7Z4gjx-Agqe0DrjM=" alt="City 38"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1220256453/photo/golden-temple-stock-images.jpg?s=612x612&w=0&k=20&c=DNlMzmTg8ywKjrl7AtTG4AUhH4kTJGb2a2Fg2GHQr_4=" alt="City 39"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1162558429/photo/ub-city-mall-and-other-towers-in-bengaluru-india.jpg?s=612x612&w=0&k=20&c=9V16rOJIu5nnABoNnx8MPM5-_K1QuoyIAJwxO1Q0eRs=" alt="City 40"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/510795912/photo/india-gate.jpg?s=612x612&w=0&k=20&c=kZkdrEDXEtoLK6Qh8XPywc9VYV95mJXXcWLBxHftN_U=" alt="City 41"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/962826702/photo/city-life-main-bazar-paharganj-new-delhi-india.jpg?s=612x612&w=0&k=20&c=dokcrxvD0Vy62rzQu1ipvBoAus9WSaRY0udMt6AdY60=" alt="City 42"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/2176517445/photo/aerial-view-of-chandigarh-city-and-sukhna-chowk-in-punjab-is-a-planned-indian-city.jpg?s=612x612&w=0&k=20&c=Ho-m3jlJ_xQBnNJOCpAdsPIUvWMywMI6sxyrvo_3JK4=" alt="City 43"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/911404606/photo/inner-city-road.jpg?s=612x612&w=0&k=20&c=eiRjcBqXs74wH4wmTMm2aX67USTTJ7KlcKRYpffsXUA=" alt="City 44"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/862758024/photo/construction-site.jpg?s=612x612&w=0&k=20&c=gYl455m4B91lwQpIidx9YBCxwLaeLKFR632FRaPqffc=" alt="City 45"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/971919418/photo/growing-cities-in-india.jpg?s=612x612&w=0&k=20&c=CpEJox-JMhsFpwrRhKLGc-DG_FhyYrViaK91pj3rdcM=" alt="City 46"></div>
+        <div class="image" data-category="city"><img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="City 47"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/1211952929/photo/marina-beach-chennai-city-tamil-nadu-india-bay-of-bengal-chennai-tourism-east-coast-road.jpg?s=612x612&w=0&k=20&c=kpAeGGwy3TyyD97PJYULLBhxZV9bM_zVP0CU7f1HIZc=" alt="City 48"></div>
+        <div class="image" data-category="city"><img src="https://media.istockphoto.com/id/508184291/photo/office-buildings-in-financial-district-la-defense-paris-france.jpg?s=612x612&w=0&k=20&c=xDSwMmBPlTurnYc44-EB9-CXnbC-2HsWICM7Gtl0Gm4=" alt="City 49"></div>
+        <div class="image" data-category="city"><img src="https://plus.unsplash.com/premium_photo-1672116452571-896980a801c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="City 50"></div>
+
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Nature 6"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Nature 5"></div>
+        <div class="image" data-category="nature"><img src="https://plus.unsplash.com/premium_photo-1673697239981-389164b7b87f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Nature 7"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 8"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 9"></div>
+        <div class="image" data-category="nature"><img src="https://plus.unsplash.com/premium_photo-1719943510748-4b4354fbcf56?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 10"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 11"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 12"></div>
+        <div class="image" data-category="nature"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Nature 13"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2181735944/photo/natural-mountains-landscapes.webp?a=1&b=1&s=612x612&w=0&k=20&c=kXWPxrf8Gs_2e35F31rKlguPcI2JE2dtGQ58HS0-W7c=" alt="Nature 14"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2189521611/photo/aerial-view-of-forest-road-and-trees-in-the-morning.webp?a=1&b=1&s=612x612&w=0&k=20&c=S_aJni_AYTah4Dkm9nrHglPdOdmx7qspQsfyvzIDl78=" alt="Nature 15"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2208884525/photo/leaf-surface-with-water-drops-macro-shallow-dofleaf-surface-with-water-drops-macro-shallow-dof.webp?a=1&b=1&s=612x612&w=0&k=20&c=kyf4qaqlMxNWC7Zu7As-kpZApWJB6EP-FYFTSQxQ5p0=" alt="Nature 16"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2199964355/photo/sunrise-in-an-olive-field-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=NxJi1PgOjnHDC_oFF2ToFVjY0tNlZ3JIXur0-gKtLxQ=" alt="Nature 17"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2206993242/photo/bright-blue-turquoise-painted-texture-abstract-aquamarine-marbled-stone-background-design.webp?a=1&b=1&s=612x612&w=0&k=20&c=AiI2E2qSP6vGrQiE1HGNZVqJQr8QzhUWQ0fPnCr5JX0=" alt="Nature 18"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2166282428/photo/a-beautiful-and-lush-green-forest-canopy-illuminated-by-warm-sunlight-streaming-through.webp?a=1&b=1&s=612x612&w=0&k=20&c=pAbM-TaCjxMefRxZBp3uQp27lwlEFFqni5yJnrzpPho=" alt="Nature 19"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2218836987/photo/confidence-in-every-line-the-beauty-of-growing-older.webp?a=1&b=1&s=612x612&w=0&k=20&c=HiLXlSlYqUuytqM4W19zJNBj0Quw--5w5z1ymggDzAs=" alt="Nature 20"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2196604548/photo/smiling-woman-with-arms-outstretched-sitting-on-car.jpg?s=612x612&w=0&k=20&c=8OKjxZtClBsZfgYW15Xbyr77CXqipQs6tNyap7Hn_a8=" alt="Nature 21"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/505221662/photo/elephants-in-river.jpg?s=612x612&w=0&k=20&c=pd0-eIKu1knUVrwVJRqfIK8t_aFqSk6vnxnuZLFGvh4=" alt="Nature 22"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2162680176/photo/elegant-woman-on-the-balcony-at-sunset-looking-at-palm-trees-on-tourist-resort.jpg?s=612x612&w=0&k=20&c=nhVW9DMzpIIaGMb0tYWgDqLxWXbWHOpxTJhJFpo2Xlw=" alt="Nature 23"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/477473902/photo/tea-plantations.jpg?s=612x612&w=0&k=20&c=6V4oFEe4iqofERaro5Ivw4O-8tZVtxIUOOpZiIhUBlk=" alt="Nature 24"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2192678433/photo/grandparents-playing-basketball-with-girl-in-park.jpg?s=612x612&w=0&k=20&c=vnuuhqZjZgl3mIBJIpBcBy9gpzryKiaYf49wRvj2Grk=" alt="Nature 25"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/968630976/photo/colorful-landscape-with-high-himalayan-mountains-beautiful-curving-river-green-forest-blue-sky.jpg?s=612x612&w=0&k=20&c=cbrwE0pXqvS_GHEkWSQ7t6jaMbVVjvwqnagOLvNViZ8=" alt="Nature 26"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1347088244/photo/kerala-most-beautiful-place-of-india.jpg?s=612x612&w=0&k=20&c=oBVJ6rUfq1YOua_4Oqhj0B1TFwcMFhniaysLJEN_eh8=" alt="Nature 27"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/511119924/photo/tea-plantations-and-river-in-hills-kerala-india.jpg?s=612x612&w=0&k=20&c=pYHem1q8SIdCC7t7pv3s6QM1ZrmU3nkCoSaEQMg8vqg=" alt="Nature 28"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/514856110/photo/woman-working-on-the-rice-field.jpg?s=612x612&w=0&k=20&c=h-8t0o176V0dzGoZPubJOciolhqvTIYY-S7otdytY7Y=" alt="Nature 29"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/475319149/photo/lotus-blossom.jpg?s=612x612&w=0&k=20&c=QZ7uEazwsbM0xZ-bRM6iWsPnfmDXffGv4sVTyj4GM7Y=" alt="Nature 30"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1369065292/photo/female-farm-worker-using-digital-tablet-in-greenhouse.jpg?s=612x612&w=0&k=20&c=AUJ9W67g7xYosZFfrQzvXCGyM1PLxs46OHUkW6wypos=" alt="Nature 31"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2236428227/photo/young-blackbird-in-green-foliage.jpg?s=612x612&w=0&k=20&c=mgv-Di7HLQE1lNvHMZhSXqRXnLRbvbpU-C_5B_gfVTA=" alt="Nature 32"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1432343120/photo/travel-and-vacation-background-3d-illustration-with-cut-of-the-ground-and-the-grass-landscape.jpg?s=612x612&w=0&k=20&c=dQbNmg8CDwgRJWub73ZGnu4GMlMbk0KlsX_KMESeL5U=" alt="Nature 33"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2233483041/photo/grapes-growing-among-green-leaves-in-the-vineyard.jpg?s=612x612&w=0&k=20&c=3syfa75dcqHSzAWr9fB4lJsNBZhi1CrzjrYbr0KM6Us=" alt="Nature 34"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1179043950/photo/family-of-two-making-a-selfie-with-cellphone-on-beach.jpg?s=612x612&w=0&k=20&c=OHbzZhh462JnFapl9M3i1C7M3emioZLqQ0RgLHIsCWQ=" alt="Nature 35"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1169235498/photo/happy-woman-thinking-at-breakfast-on-vacation-stock-photo.jpg?s=612x612&w=0&k=20&c=OkQiuuH-HKtL2RdaVpOAAqI8rhLugZegLwcQcERpKh8=" alt="Nature 36"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1315856341/photo/young-woman-meditating-outdoors-at-park.jpg?s=612x612&w=0&k=20&c=cQjPuCiusPAQkWAp6k4c0981M9BaGkbzAKOeTOs9f2s=" alt="Nature 37"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/467233280/photo/nepal-jungle.jpg?s=612x612&w=0&k=20&c=cYBq-rnlXuxGNOj5-x5Pp5HJNp1Mdn_6Brta2zOyQOE=" alt="Nature 38"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1080676040/photo/beautiful-landscape-at-mystical-day-with-mountains-and-lake-travel-background-periyar.jpg?s=612x612&w=0&k=20&c=eG2b3xbqC9NjsTTo_DgsiPsoojAmvcbPwZpjRv3VcSg=" alt="Nature 39"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/523035682/photo/curvy-roads-silk-trading-route-between-china-and-india.jpg?s=612x612&w=0&k=20&c=fLj-uO2jVjnCovlPdFBh6BvMhp5UNINQx5GSeDaPYDs=" alt="Nature 40"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/895454734/photo/beautiful-lotus-flower-on-the-water-in-a-park-close-up.jpg?s=612x612&w=0&k=20&c=6X--zHMAOPuplPx76Y593jzM-0V2t4BETWLnIRwjOyU=" alt="Nature 41"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/511593366/photo/tropical-jungle.jpg?s=612x612&w=0&k=20&c=PCkxPcz5srdnYoUXiSOZWuGeq0kAe2iH3Xkm4mswdHA=" alt="Nature 42"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/2158547128/photo/woman-in-yellow-dress-swinging-under-palm-trees.jpg?s=612x612&w=0&k=20&c=M8UCC17m2HvG3hCHm5H1QbtYICLrVNKH2SnPYa6AsD0=" alt="Nature 43"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1193125821/photo/beautiful-natural-scenery-of-himalayan-river-valley-during-monsoon-passing-through-lush-green.jpg?s=612x612&w=0&k=20&c=ZxraqCgNQ2psa6UPC_Voi3z3v1aGInkcofXNguC8W-s=" alt="Nature 44"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/476111648/photo/sunset-over-indian-ocean.jpg?s=612x612&w=0&k=20&c=MACHHpk4qMmaAJXDNwHVNTdLjXks-9GVSfKszPWcT-Q=" alt="Nature 45"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/475070626/photo/mountains-pangong-tso-leh-ladakh-jammu-and-kashmir-india.jpg?s=612x612&w=0&k=20&c=Ecqus-7RRtqjlRoRN4-gz3d9nTKIiO4flZiMqzoiXQM=" alt="Nature 46"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1326115343/photo/woman-walking-on-the-edge-of-infinity-pool.jpg?s=612x612&w=0&k=20&c=36uYYYt9IP6ZLojDujIBV_w1PPpl_DHruO4lQUjanew=" alt="Nature 47"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1295562623/photo/indian-flag-waving-in-air.jpg?s=612x612&w=0&k=20&c=gH0JFMtRMfch5AAnwUaA_RAogc0Seq6yasSWO514-rY=" alt="Nature 48"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/1031430214/photo/young-woman-kayaking-through-the-backwaters-of-monroe-island.jpg?s=612x612&w=0&k=20&c=kbv2s1kknMzJgk8Nd-W2VNIf0AFx48YtCqygtI3Ppos=" alt="Nature 49"></div>
+        <div class="image" data-category="nature"><img src="https://media.istockphoto.com/id/486901291/photo/windmills-in-kinderdijk.jpg?s=612x612&w=0&k=20&c=KcgWKMwXmnqksVKMMsbSsX6XcPHAvKbEn4QRMBzDF6w=" alt="Nature 50"></div>
+
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Animal 4"></div>
+        <div class="image" data-category="animals"><img src="https://plus.unsplash.com/premium_photo-1675716926653-8f4529595012?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YW5pbWFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Animal 5"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1486365227551-f3f90034a57c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt="Animal 6"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1470093851219-69951fcbb533?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 7"></div>
+        <div class="image" data-category="animals"><img src="https://plus.unsplash.com/premium_photo-1675715924047-a9cf6c539d9b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 8"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1497752531616-c3afd9760a11?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 9"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 10"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 12"></div>
+        <div class="image" data-category="animals"><img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Animal 13"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2153544403/photo/group-of-kazakh-eagle-hunters-riding-horses-along-river-bayan-olgii-west-mongolia.webp?a=1&b=1&s=612x612&w=0&k=20&c=ggiQUeXrrkq7n7wWK3JpGuPO5pzgl6pP00PctDu1qMk=" alt="Animal 14"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2196087139/photo/dog-gives-paw-to-a-woman-making-high-five-gesture.webp?a=1&b=1&s=612x612&w=0&k=20&c=9JStCy8UAHKmbPZxaWmnbysmXHtUKH_5Iy23XRlFrnA=" alt="Animal 15"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2201563277/photo/bull-moose-alces-alces-majestic-male-animal-in-the-river-in-front-of-teton-peak.webp?a=1&b=1&s=612x612&w=0&k=20&c=bxanHouvzgsoeC9MgNVeWynM4y9YzNArW-Il-PcAOWM=" alt="Animal 16"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2200382538/photo/car-ride-domestic-cat-from-rearview-mirror.webp?a=1&b=1&s=612x612&w=0&k=20&c=Btw99Aiskf5Xcv6ow9J4v5gnhSIAu31llIklhsxDMdo=" alt="Animal 17"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2151854352/photo/taking-care-of-an-animal-shelter-dog.webp?a=1&b=1&s=612x612&w=0&k=20&c=Mi8K-X5NSMFVT8RdgcilyNuASoZ0jR6CDCfLs0S6HfM=" alt="Animal 18"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2171083384/photo/autumn-squirrel-standing-on-its-hind-legs-on-on-green-grass-with-fallen-yellow-leaves.webp?a=1&b=1&s=612x612&w=0&k=20&c=tEu-amUNj0afX5CjAOvh0rd68lpBYCRNUkocOC9IPKg=" alt="Animal 19"></div>
+        <div class="image" data-category="animals"><img src="" alt="Animal 20"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2163401769/photo/yak-or-bos-grunniens-or-bos-mutus-in-leh-ladakh-india.jpg?s=612x612&w=0&k=20&c=HpKoOVjgj55aO_jO2KprsGMyqHg4H7zLqdotaKfxA0U=" alt="Animal 21"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/472108091/photo/camel-is-waiting-for-tourists-in-nubra-valley-leh.jpg?s=612x612&w=0&k=20&c=t7-IY1htpeu7o4jYr_tDb6ZFyZS9QruUsAPCv3S6A3c=" alt="Animal 22"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2183834041/photo/family.jpg?s=612x612&w=0&k=20&c=uPZVGvsF2hbb66n7NqFOvNPD7t138GwQPGxp7HdVu24=" alt="Animal 23"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1299825142/photo/tiger-walking-early-morning-hunting-time-the-image-was-taken-in-nagarahole-forest-karnataka.jpg?s=612x612&w=0&k=20&c=USeY7w0FfLQy7ot5-UwlDlOhRn26_YvRObIc6rnBk2o=" alt="Animal 24"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/969103888/photo/chameleon.jpg?s=612x612&w=0&k=20&c=7RgTUcCB8IhDXypgm3g2Tp-ectuOpmorSCBwbZYwm3A=" alt="Animal 25"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1301662267/photo/australian-fur-seal-or-sea-lion-swimming-through-clear-shallow-water.jpg?s=612x612&w=0&k=20&c=WYMV-j-mc5KrEIbgT55FnQ56cru4ue0nok-a4HzQCVA=" alt="Animal 26"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/172677209/photo/wild-indian-elephants.jpg?s=612x612&w=0&k=20&c=XdrOLEYbcUZoH3i6GjCtc0YU_p5j7IOyIVweUqGH8oE=" alt="Animal 27"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/505221662/photo/elephants-in-river.jpg?s=612x612&w=0&k=20&c=pd0-eIKu1knUVrwVJRqfIK8t_aFqSk6vnxnuZLFGvh4=" alt="Animal 28"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/479037543/photo/tiger.jpg?s=612x612&w=0&k=20&c=VXJXu1oRAQb45zmH03u21nJCrFWHRqHPaJo3ZqIP3AQ=" alt="Animal 29"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2147667601/photo/a-male-greater-one-horned-rhino-walks-in-an-alert-manner-with-head-raised-in-a-meadow.jpg?s=612x612&w=0&k=20&c=86DXPJxMPim2NckpMk8eDIGcqorSOBXZnsOLrD0BvOw=" alt="Animal 30"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/2242504855/photo/common-kingfisher-perched-on-mangrove-roots-sundarbans-west-bengal.jpg?s=612x612&w=0&k=20&c=YS6u6VQarDldUyMJ4CrUr7O4bmkwWKpFEfEXu6ING0g=" alt="Animal 31"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1248168984/photo/red-lionfish-pterois-volitans.jpg?s=612x612&w=0&k=20&c=k_XZniSLrcq0kEChXfUCAp9G4Q8F2ToEM09y72e0kOk=" alt="Animal 32"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/479667835/photo/background-elephant.jpg?s=612x612&w=0&k=20&c=DwfinIerTq104FXWcBBwegTWcmw8tf18EGqa5IpEyFk=" alt="Animal 33"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1060529042/photo/young-woman-with-dog.jpg?s=612x612&w=0&k=20&c=s0AlJrCZUUX4EXzwpwxobfUbeqUnghp0FpdHXHx3mpk=" alt="Animal 34"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/806276128/photo/farmer-ploughing-rice-field-at-sunrise.jpg?s=612x612&w=0&k=20&c=t5IUOH9GWrI1lAz4gXPJnwjR9WUxQxdmSnIJxk_XDiQ=" alt="Animal 35"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1276370504/photo/indian-pangolin-or-anteater-one-of-the-most-traffic-wildlife-species.jpg?s=612x612&w=0&k=20&c=AgcavCL4O4YouzGNletp0yO7MpkxW-JnazC0tdMZQig=" alt="Animal 36"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1295501748/photo/underwater-shot-of-green-turtle-swimming.jpg?s=612x612&w=0&k=20&c=1gte0-5XMNMff-g3oXKE1EbOD1G250WPo2OB5piAufs=" alt="Animal 37"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/170462856/photo/dog-working-comfortably-from-home.jpg?s=612x612&w=0&k=20&c=bkWU83XcvVdxQBvQmoqVNkM-zLZsGy4BZPWWQQqzMok=" alt="Animal 38"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/179127232/photo/many-pashmina-goats-on-rock-mountains-under-gray-cloudy-sky.jpg?s=612x612&w=0&k=20&c=dSQQY9LW60QCFSax4nMGTuUvNwKmUc_ns7X9ZTD0CFs=" alt="Animal 39"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1211692525/photo/group-of-wild-elephants-walking-in-the-tropical-rainforest-meadow-field-at-sunrise.jpg?s=612x612&w=0&k=20&c=GD96xkLwAh9BcM6gGR0zlBb8RS1za7glJ9-XaVxba18=" alt="Animal 40"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1214343887/photo/veterinarian-for-cattle-and-livestock.jpg?s=612x612&w=0&k=20&c=MV67Xdx6hTnCMrBNN2MvicLaC8aJQwS8ZkTb5UGka4g=" alt="Animal 41"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1290803978/photo/herd-of-chital-deer-or-spotted-deer-in-bandipur-national-park-karnataka-india.jpg?s=612x612&w=0&k=20&c=DEbMCkvOeZG3wrLMZWD-elLtjTuHoK08iGEfwoun3-g=" alt="Animal 42"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/949472768/photo/tiger-portrait.jpg?s=612x612&w=0&k=20&c=cPI-hIwXxLwRYcGW3HaC_3C6J_MMIE_BbMjI9Ac0XNE=" alt="Animal 43"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/473502112/photo/dog-on-the-phone.jpg?s=612x612&w=0&k=20&c=HrEIB3tZ9el6wwVnGar1conO921I0HYannu3RWiSDJ8=" alt="Animal 44"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1210682847/photo/a-beautiful-bengal-tiger-relaxing-on-a-rocky-outcrop-at-sunset.jpg?s=612x612&w=0&k=20&c=vNHLptVtWApPCVzNR-fhBxMH6Jq2WDye85_cBB1Vv3k=" alt="Animal 45"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/510682838/photo/the-dance-competition.jpg?s=612x612&w=0&k=20&c=ULUFPZAKWQzWf0V4rRvzjLRSpVf3pjZpZIv-yTqbp7Y=" alt="Animal 46"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/944376422/photo/homeless-puppy-dog-sitting-alone-in-the-middle-of-the-street.jpg?s=612x612&w=0&k=20&c=bmwNLGdEir34XdrdwhcOEnJWt_JO6C0mdzVe2cMDAhU=" alt="Animal 47"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1155030342/photo/dog-travel-by-car.jpg?s=612x612&w=0&k=20&c=dZ3JIKzExiEGUWoULEEmrst_WUcFPAnbTY9fnPuszoM=" alt="Animal 48"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/1143086160/photo/various-cuts-of-raw-meat-shot-from-above-on-a-cast-iron-grill.jpg?s=612x612&w=0&k=20&c=HLSz4aqv5yT7dkQNSTIsplyLzWwlW12ItLx8KT6wZtM=" alt="Animal 49"></div>
+        <div class="image" data-category="animals"><img src="https://media.istockphoto.com/id/992637094/photo/british-short-hair-cat-and-golden-retriever.jpg?s=612x612&w=0&k=20&c=MPxqqfyY1mhqlrqD9xCC3NA14qSR0DfZnD5SVJxs2Ik=" alt="Animal 50"></div>
+
+
+        
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+        <div class="navigation">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
